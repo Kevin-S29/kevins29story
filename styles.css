@@ -1,0 +1,119 @@
+body {
+    font-family: sans-serif, Tahoma, Geneva, Verdana;
+    background-color: #f2f2f2; 
+    font-size: 1.6rem;
+    margin: 35;
+    padding: 10;
+    color: #333;
+    line-height: 1.6;
+}
+
+main {
+    width: 80%;
+    max-width: 750px;
+    margin: 20px auto;
+    padding-bottom: 40px;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 6px 10px;
+    border-radius: 5px;
+    transition: 0.7s;
+}
+
+.nav-links a:hover {
+    background-color: #ddd;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #222;
+}
+
+.profile-img {
+    width: 540px;
+    border-radius: 30px;
+    margin-top: 15px;
+    display: block;
+}
+
+.football-highschool-photos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.football-img {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.football-text {
+    max-width: 300px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+.contact i {
+    margin-right: 8px;
+    color: #444;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ffffff;
+    border-top: 2px solid #ddd;
+    margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .football-highschool-photos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-img {
+        width: 150px;
+    }
+}
